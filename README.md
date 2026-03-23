@@ -1,46 +1,38 @@
-# 📊 Order Process Mining using Celonis
+📊 Order Process Dashboard (Celonis)
+🚀 Project Overview
 
-## 📌 Overview
+This project demonstrates a process mining dashboard built using Celonis Studio to analyze and visualize an end-to-end order lifecycle.
 
-This project analyzes an e-commerce order lifecycle using Celonis Process Mining.
+The dashboard provides insights into how orders move through different stages such as:
 
-## 🔄 Process Flow
+Order Created
+Order Approved
+Order Shipped
+Order Delivered
 
-Order Created → Order Approved → Order Shipped → Order Delivered
+It helps in understanding process efficiency, activity distribution, and time taken to complete orders.
 
-## 📊 Key Metrics
-
-* Total Orders: 99,441
-* Total Activities: 395,821
-* Completed Orders: 99,441
-* Average Completion Time: 24.40 days
-
-## 📈 Insights
-
-* 95% cases follow the main variant
-* Process is highly standardized
-* Minor deviations exist in remaining cases
-
-## 🛠 Tools Used
-
-* Celonis Studio
-* Process Query Language (PQL)
-
-## 📷 Screenshots
-
-### Process Explorer
-
-![Process Explorer](process-explorer.png)
-
-### Dashboard Overview
-
-![Dashboard](dashboard-overview.png)
-
-### Variant Explorer
-
-![Variant Explorer](variant-explorer.png)
-
-## 📌 Conclusion
-
-Celonis helps in visualizing business processes, identifying bottlenecks, and improving efficiency using event log data.
-
+🎯 Key Features
+📈 KPI Metrics
+Total Orders
+Completed Orders
+Average Order Completion Time
+🔄 Process Flow Visualization
+Displays the actual flow of orders from start to end
+Highlights most common process paths
+🔍 Variant Explorer
+Shows different process variants
+Identifies dominant process flows (95% coverage)
+📊 Data Visualizations
+Bar Chart → Order distribution across activities
+Pie Chart → Activity share (%)
+Line Chart → Order trend over time
+🛠️ Tools & Technologies
+Celonis Studio
+PQL (Process Query Language)
+Event Log Dataset (CSV)
+📌 Key Insights
+Majority of orders follow a standard process flow (≈95%)
+Activities are evenly distributed across stages
+A noticeable spike in orders is observed during peak periods
+Average order completion time is around 24 days
